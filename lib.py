@@ -8,3 +8,4 @@ def calculate_discount(price: float, discount_percent: float) -> float:
     if price < 0 or discount_percent < 0:
         raise ValueError("Ціна та знижка не можуть бути від'ємними")
     return price * (1 - discount_percent / 100)
+#######
